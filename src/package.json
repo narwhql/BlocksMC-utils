@@ -1,6 +1,6 @@
 {
   "name": "blocksmc-utils",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "BlocksMC data utilities simplified for developers.",
   "main": "index.js",
   "scripts": {
@@ -11,14 +11,14 @@
     "url": "git+https://github.com/narwhql/blocksmc-utils.git"
   },
   "keywords": [
-    "BlocksMC"
+    "BlocksMC", "BlocksMC-Utils", "Minecraft", "Stats", "Statistics"
   ],
   "author": "narwhql",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/narwhql/blocksmc-utils/issues"
   },
-  "homepage": "https://github.com/narwhql/blocksmc-utils#readme",
+  "homepage": "https://narwhql.github.io/BlocksMC-utils/#/",
   "types": "types/index.d.ts",
   "typings": "index.d.ts",
   "devDependencies": {
