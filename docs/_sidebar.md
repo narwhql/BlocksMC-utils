@@ -1,5 +1,5 @@
 * Getting started
-    * [Quick start](quickstart.md)
+    * [Quick start](README.md)
     
 * Fetching Data
     * [Players](players.md)
