@@ -32,7 +32,7 @@ interface ChatReportData {
 
 interface ChatReportPlayer {
     name: string;
-    fetch: () => Promise<Player | void>;
+    fetch: () => Promise<Player>;
 }
 
 interface ChatReportMessage {

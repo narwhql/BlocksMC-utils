@@ -23,7 +23,7 @@ interface LeaderboardGame {
 
 interface LeaderboardPlayer {
     name: string;
-    fetch: () => Promise<Player | void>;
+    fetch: () => Promise<Player>;
     statistics: LeaderboardPlayerStatistics;
 }
 
