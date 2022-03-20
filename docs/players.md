@@ -1,7 +1,7 @@
 # Fetching Player Data
 
 Fetching player data is simple and will provide you with the following:
-- Username 
+- Username
 - Rank
 - Time Played
 - Game Statistics
