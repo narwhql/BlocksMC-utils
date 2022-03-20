@@ -1,6 +1,6 @@
 export class Guild {
     public name: string;
-    public tag: string;
+    public tag?: string;
     public created: Date;
     public createdTimestamp: number;
     public leader: GuildMember;
@@ -19,7 +19,7 @@ export class Guild {
 
 interface GuildData {
     name: string;
-    tag: string;
+    tag?: string;
     created: Date;
     createdTimestamp: number;
     members: GuildMember[];
