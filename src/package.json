@@ -1,6 +1,6 @@
 {
   "name": "blocksmc-utils",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "description": "BlocksMC data utilities simplified for developers.",
   "main": "index.js",
   "scripts": {
