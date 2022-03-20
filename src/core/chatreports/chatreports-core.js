@@ -47,6 +47,7 @@ module.exports = (code) => {
         }
 
         const data = {
+            code: code,
             player: {
                 name: cache[0],
                 fetch: async() => playersCore(cache[0])
