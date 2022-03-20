@@ -5,4 +5,4 @@ src/node_modules/
 src/package-lock.json
 test/node_modules/
 test/package-lock.json
-test/pckage.json
+test/package.json
