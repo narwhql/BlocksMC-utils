@@ -1,0 +1,29 @@
+{
+  "name": "blocksmc-utils",
+  "version": "2.0.0",
+  "description": "BlocksMC data utilities simplified for developers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narwhql/blocksmc-utils.git"
+  },
+  "keywords": [
+    "BlocksMC"
+  ],
+  "author": "narwhql",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/narwhql/blocksmc-utils/issues"
+  },
+  "homepage": "https://github.com/narwhql/blocksmc-utils#readme",
+  "types": "types/index.d.ts",
+  "typings": "index.d.ts",
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "ms": "^2.1.3",
+    "node-fetch": "^3.2.3"
+  }
+}
