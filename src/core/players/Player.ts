@@ -27,6 +27,7 @@ interface PlayerData {
 
 interface Game {
     name: string;
+    imageURL: string;
     type: GameType;
     statistics: Statistics;
 }

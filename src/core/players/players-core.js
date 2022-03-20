@@ -70,6 +70,7 @@ module.exports = (username) => {
 
             games.push({
                 name: title.replaceAll(':', ' '),
+                imageURL: $(this).find('img').first().attr('src'),
                 type: type,
                 statistics: stats
             });
