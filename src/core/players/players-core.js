@@ -25,7 +25,7 @@ module.exports = (username) => {
             return;
         }
 
-        const response = await fetch(`https://util.narwhql.ml/player/${username}`, { method: 'GET' }).then(res => res.json());
+        const response = await fetch(`https://util.narwhql.ml/player/${username}`, { method: 'GET' }, 30000).then(res => res.json());
         
         if (!response || response.registered == false) return resolve(undefined);
 
