@@ -45,4 +45,6 @@ interface Statistics {
     beds?: number;
     goals?: number;
     rounds?: number;
+    kills?: number;
+    deaths?: number;
 }
