@@ -47,4 +47,13 @@ interface LeaderboardPlayerStatistics {
     blocks?: number;
     tnts?: number;
     fireworks?: number;
+    hider_wins?: number;
+    seeker_wins?: number;
+    hider_kills?: number;
+    seeker_kills?: number;
+    hider_deaths?: number;
+    seeker_deaths?: number;
+    blocks_placed?: number;
+    blocks_broken?: number;
+    powerups?: number;
 }

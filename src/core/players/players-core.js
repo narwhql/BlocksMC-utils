@@ -1,8 +1,12 @@
+const fetchGuild = require("../guilds/guilds-core");
+
 const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args));
 
 class Player {
     constructor(playerData) {
         this.name = playerData.name;
+        this.guildName = playerData.guildName;
+        this.guildTag = playerData.guildTag;
         this.rank = playerData.rank;
         this.timePlayed = playerData.timePlayed;
         this.games = playerData.games;
@@ -10,6 +14,10 @@ class Player {
 
     getGame(gameType) {
         return this.games.filter(game => game.type === gameType).length !== 0 ? this.games.filter(game => game.type === gameType)[0] : null;
+    }
+
+    async fetchGuild() {
+        return this.guildName ? await fetchGuild(this.guildName) : null;
     }
 }
 
@@ -31,6 +39,8 @@ module.exports = (username) => {
 
         resolve(new Player({
             name: response.name,
+            guildName: response.guildName,
+            guildTag: response.guildTag,
             rank: response.rank,
             timePlayed: response.timePlayed,
             games: response.games
